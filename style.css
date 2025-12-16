@@ -21,3 +21,23 @@ nav ul {
 section {
   padding: 40px;
 }
+
+#home{
+  padding: 60px 40px;
+}
+
+#About{
+  padding: 60px 40px;
+  background-color: #f4f4f4;
+}
+
+#about h2{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
