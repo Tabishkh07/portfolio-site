@@ -4,12 +4,19 @@ body {
   padding: 0;
 }
 
+section {
+  padding: 60px 40px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   padding: 16px;
   background: #111;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav ul {
@@ -18,12 +25,33 @@ nav ul {
   gap: 16px;
 }
 
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
 section {
   padding: 40px;
 }
 
 #home{
   padding: 60px 40px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home h1 {
+  font-size: 36px;
+}
+
+#home p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 #About{
