@@ -138,13 +138,21 @@ body {
 
 .skill {
   padding: 10px 16px;
-  border: 1px solid #374151;
+  border: 2px solid #3b82f6;
   border-radius: 20px;
   font-size: 14px;
+}
+
+.skill ul{
+  color: #6b7280;
 }
 
 /* PROJECTS SECTION */
 #projects {
   padding: 60px;
   background-color: #f9fafb;
+}
+
+#contact{
+  padding: 60px;
 }
