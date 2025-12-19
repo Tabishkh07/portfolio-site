@@ -227,3 +227,28 @@ body {
 .contact-form button {
   align-self: flex-start;
 }
+
+/* FOOTER */
+.footer {
+  padding: 24px 60px;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #3b82f6;
+  font-size: 14px;
+}
