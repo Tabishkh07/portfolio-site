@@ -197,7 +197,33 @@ body {
   color: #9ca3af;
 }
 
-/* contact section */
-#contact{
+/* CONTACT SECTION */
+#contact {
   padding: 60px;
+  background-color: #ffffff;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-family: inherit;
+}
+
+.contact-form button {
+  align-self: flex-start;
 }
