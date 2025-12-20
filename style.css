@@ -252,3 +252,42 @@ body {
   color: #3b82f6;
   font-size: 14px;
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 16px 24px;
+  }
+
+  .nav-links {
+    gap: 16px;
+  }
+
+  .hero {
+    padding: 40px 24px;
+    min-height: auto;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-desc {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 40px 24px;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}
