@@ -13,7 +13,7 @@ Personal portfolio website built using HTML and CSS by converting a Figma design
 - CSS
 
 ## Live Demo
-Click here
+Click here(https://tabishkh07.github.io/portfolio-site/)
 
 ## Author
 Mohammed Tabish Khan
