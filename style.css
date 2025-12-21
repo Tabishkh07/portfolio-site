@@ -130,14 +130,14 @@ body {
 }
 
 .skills-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
-  max-width: 700px;
+  max-width: 1000px;
 }
 
 .skill {
-  padding: 10px 16px;
+  padding: 14px 18px;
   border: 2px solid #8caada;
   border-radius: 20px;
   font-size: 14px;
@@ -145,6 +145,8 @@ body {
 
 .skill ul{
   color: #6b7280;
+  padding-left: 16px;
+  margin-top: 8px;
 }
 
 /* PROJECTS SECTION */
