@@ -1,11 +1,19 @@
 # Portfolio Website
 
-Personal portfolio website built using HTML and CSS.
+Personal portfolio website built using HTML and CSS by converting a Figma design into a responsive layout.
 
-## Sections
-- Home
-- About
-- Projects
-- Contact
+## Features
+- Clean and minimal UI
+- Responsive design (mobile + desktop)
+- Sections: Home, About, Skills, Projects, Contact
+- Built with accessibility and readability in mind
 
-🚀 More features coming soon.
+## Tech Stack
+- HTML
+- CSS
+
+## Live Demo
+Click here
+
+## Author
+Mohammed Tabish Khan
